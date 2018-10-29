@@ -5,7 +5,7 @@ And the corresponding program template is provided for each algorithm
 
 # Chapter 1: Data preprocessing
 
-	1.1 Import Data
+	## 1.1 Import Data
 	1.2 Take care of missing data (nan)
 	1.3 Encoding categorical data
 	1.4 Splitting the data set to training set and test set  
