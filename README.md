@@ -6,16 +6,16 @@ And the corresponding program template is provided for each algorithm
 # Chapter 1: Data preprocessing
 
    	1.1 Import Data
-   	1.2 Take care of missing data(nan)
-   	1.3 Encoding categorical data
-   	1.4 Splitting the data set to training set and test set  
-   	1.5 Feature scaling
+   	1.2 Take Care of Missing Data(nan)
+   	1.3 Encoding Categorical Data
+   	1.4 Splitting the Data set to Training set and Test set  
+   	1.5 Feature Scaling
 	
 # Chapter 2: Regression
 
-   	1.1 Linear regression
-   	1.2 Multivariable linear regression
-   	1.3 Polynomial regression
+   	1.1 Linear Regression
+   	1.2 Multivariable Linear Regression
+   	1.3 Polynomial Regression
    	1.4 SVR(support vector regression)
    	1.5 Decision Tree Regression 
    	1.6 Random Forest Regression
