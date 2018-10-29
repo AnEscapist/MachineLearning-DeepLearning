@@ -3,8 +3,6 @@
 This file summarized some important ML/DL algorithms, also data preprocessing is included
 And the corresponding program template is provided for each algorithm
 
-==
-
 # Chapter 1: Data preprocessing
 
 	1.1 Import Data
