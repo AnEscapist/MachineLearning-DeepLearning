@@ -1,0 +1,15 @@
+#Data file: 'Data.csv'
+
+
+#step 1: import some packages
+
+import numpy as np
+import pandas as pd
+import matplotlib.pylot as plt
+
+#step 2: import data set
+
+data = pd.read_csv('Data.csv')
+print(data.head())
+
+#step 3: take care of missing data
