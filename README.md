@@ -1,7 +1,8 @@
 # MachineLearning-DeepLearning
 
 This file summarized some important ML/DL algorithms, also data preprocessing is included
-And the corresponding program template is provided for each algorithm
+And the corresponding program template is provided for each algorithm.
+Following the Udemy online course: Machine Learnign A-Z: hands on python & R in data science.
 
 # Chapter 1: Data preprocessing
 
