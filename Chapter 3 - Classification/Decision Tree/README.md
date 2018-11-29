@@ -44,3 +44,37 @@ where **H(D|A)** is the conditional entropy of **D** given the value of attribut
 Information entropy:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=H(D)&space;=&space;-\sum_{k=1}^{K}\frac{|C_k|}{|D|}log_2\frac{|C_k|}{|D|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(D)&space;=&space;-\sum_{k=1}^{K}\frac{|C_k|}{|D|}log_2\frac{|C_k|}{|D|}" title="H(D) = -\sum_{k=1}^{K}\frac{|C_k|}{|D|}log_2\frac{|C_k|}{|D|}" /></a>
+
+Conditional entropy:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=H(D|A)&space;=&space;\sum_{i=1}^{n}\frac{|D_i|}{|D|}H(D_i)=-\sum_{i=1}^{n}\frac{|D_i|}{|D|}\sum_{k=1}^{k}\frac{|D_{ik}|}{|D_i|}log_2\frac{|D_{ik}|}{|D_i|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(D|A)&space;=&space;\sum_{i=1}^{n}\frac{|D_i|}{|D|}H(D_i)=-\sum_{i=1}^{n}\frac{|D_i|}{|D|}\sum_{k=1}^{k}\frac{|D_{ik}|}{|D_i|}log_2\frac{|D_{ik}|}{|D_i|}" title="H(D|A) = \sum_{i=1}^{n}\frac{|D_i|}{|D|}H(D_i)=-\sum_{i=1}^{n}\frac{|D_i|}{|D|}\sum_{k=1}^{k}\frac{|D_{ik}|}{|D_i|}log_2\frac{|D_{ik}|}{|D_i|}" /></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
