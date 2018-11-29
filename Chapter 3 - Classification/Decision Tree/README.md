@@ -35,4 +35,12 @@ However, Game A has a more nondeterminacy than Game B, therefore A has a higher 
 
 ## Definition
 
-In general terms, the expected information gain is the change in information entropy H from a prior state to a state that takes some information as given.
+In general terms, the expected information gain is the change in information entropy **H** from a prior state to a state that takes some information as given.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=g(D,&space;A)&space;=&space;H(D)&space;-&space;H(D|A)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g(D,&space;A)&space;=&space;H(D)&space;-&space;H(D|A)" title="g(D, A) = H(D) - H(D|A)" /></a>
+  
+where **H(D|A)** is the conditional entropy of **D** given the value of attribute A.
+
+Information entropy:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=H(D)&space;=&space;-\sum_{k=1}^{K}\frac{|C_k|}{|D|}log_2\frac{|C_k|}{|D|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(D)&space;=&space;-\sum_{k=1}^{K}\frac{|C_k|}{|D|}log_2\frac{|C_k|}{|D|}" title="H(D) = -\sum_{k=1}^{K}\frac{|C_k|}{|D|}log_2\frac{|C_k|}{|D|}" /></a>
