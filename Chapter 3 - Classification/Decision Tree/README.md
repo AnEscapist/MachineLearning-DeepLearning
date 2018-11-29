@@ -20,4 +20,9 @@ Game A: High-active usesrs is 20%, mid-active users is 30%, low-active users is 
 Game B: High-active usesrs is 5%, mid-active users is 5%, low-active users is 90%
 ```
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=H(A)&space;=&space;-(0.2&space;*&space;log_20.2&space;&plus;&space;0.3&space;*&space;log_20.3&space;&plus;&space;0.5&space;*&space;log_20.5)&space;=&space;1.485" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(A)&space;=&space;-(0.2&space;*&space;log_20.2&space;&plus;&space;0.3&space;*&space;log_20.3&space;&plus;&space;0.5&space;*&space;log_20.5)&space;=&space;1.485" title="H(A) = -(0.2 * log_20.2 + 0.3 * log_20.3 + 0.5 * log_20.5) = 1.485" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=H(B)&space;=&space;-(0.05&space;*&space;log_20.05&space;&plus;&space;0.05&space;*&space;log_20.05&space;&plus;&space;0.9&space;*&space;log_20.9)&space;=&space;0.569" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(B)&space;=&space;-(0.05&space;*&space;log_20.05&space;&plus;&space;0.05&space;*&space;log_20.05&space;&plus;&space;0.9&space;*&space;log_20.9)&space;=&space;0.569" title="H(B) = -(0.05 * log_20.05 + 0.05 * log_20.05 + 0.9 * log_20.9) = 0.569" /></a>
+
+
 
