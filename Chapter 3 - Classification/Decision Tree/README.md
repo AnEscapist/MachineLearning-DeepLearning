@@ -49,10 +49,42 @@ Conditional entropy:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=H(D|A)&space;=&space;\sum_{i=1}^{n}\frac{|D_i|}{|D|}H(D_i)=-\sum_{i=1}^{n}\frac{|D_i|}{|D|}\sum_{k=1}^{k}\frac{|D_{ik}|}{|D_i|}log_2\frac{|D_{ik}|}{|D_i|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(D|A)&space;=&space;\sum_{i=1}^{n}\frac{|D_i|}{|D|}H(D_i)=-\sum_{i=1}^{n}\frac{|D_i|}{|D|}\sum_{k=1}^{k}\frac{|D_{ik}|}{|D_i|}log_2\frac{|D_{ik}|}{|D_i|}" title="H(D|A) = \sum_{i=1}^{n}\frac{|D_i|}{|D|}H(D_i)=-\sum_{i=1}^{n}\frac{|D_i|}{|D|}\sum_{k=1}^{k}\frac{|D_{ik}|}{|D_i|}log_2\frac{|D_{ik}|}{|D_i|}" /></a>
 
+where C<sub>k is the number of samples of class k.
 
+## Example:
 
+| QQ  | Gender |  active_infor  | is_lost|
+| --- | --- | --- | --- |
+| 1  | M  | High | 0 |
+| 2  | F  | Mid | 0 |
+| 3  | M  | Low | 1 |
+| 4  | F  | High | 0 |
+| 5  | M  | High | 0 |
+| 6  | M  | Mid | 0 |
+| 7  | M  | Mid | 1 |
+| 8  | F  | Mid | 0 |
+| 9  | F  | Low | 1 |
+| 10  | F  | Mid | 0 |
+| 11  | F  | High | 0 |
+| 12  | M  | Low | 1 |
+| 13  | F  | Low | 1 |
+| 14  | M  | High | 0 |
+| 15  | M  | High | 0 |
 
+Statistical Chart:
 
+|    | Lost |  Non-lost  | Total|
+| --- | --- | --- | --- |
+| Overall  | 5  | 10 | 15 |
+| Male  | 3  | 5 | 8 |
+| Female  |2  | 5 | 7 |
+| High  | 0  | 6 | 6 |
+| Mid  | 1  | 4 | 5 |
+| Low  | 4  | 0 | 4 |
+
+From the chart, we get three entropies:
+
+1st:
 
 
 
