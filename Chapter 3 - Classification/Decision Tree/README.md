@@ -26,7 +26,13 @@ Game B: High-active usesrs is 5%, mid-active users is 5%, low-active users is 90
 
 ```
 The entropy of Game A is greater than that of Game B, so the nondeterminacy of A is higher than B. 
-Simply sppeaking, Game B is in a stage of either rising or descent, it is highly predictable of its future, so it has a lower entropy.
+Simply sppeaking, Game B is in a stage of either rising or descent, it is highly predictable of its future, 
+so it has a lower entropy.
 However, Game A has a more nondeterminacy than Game B, therefore A has a higher entropy.
 ```
 
+# Information Gain
+
+## Definition
+
+In general terms, the expected information gain is the change in information entropy H from a prior state to a state that takes some information as given.
