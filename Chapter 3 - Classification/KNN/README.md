@@ -67,14 +67,24 @@ training data that are closest to **x** the set **A**. Note k is usually odd to 
 
 Finally, our input **x** gets assigned to the class with the  largest probability.
 
+# K 
 
+In KNN, K is a hyperparameter that you must pick in order to get the best possible fit for the dataset.
+You can think of K as controlling the shape of the decision boundary we talked about earlier.
 
+When K is small: Low bias but high variance.
 
+![image](https://github.com/AnEscapist/MachineLearning-DeepLearning/blob/master/Chapter%203%20-%20Classification/KNN/img/k%3D1.PNG)
 
+On the other hand, a higher K averages more voters in each prediction and hence is more resilient to outliers. K=20:
 
+![image](https://github.com/AnEscapist/MachineLearning-DeepLearning/blob/master/Chapter%203%20-%20Classification/KNN/img/k%3D20.PNG)
 
+# KNN with Python
 
+The dataset we'll be using is the **Iris Flower Datast**.
 
+![image](https://github.com/AnEscapist/MachineLearning-DeepLearning/blob/master/Chapter%203%20-%20Classification/KNN/img/iris%20flower.PNG)
 
 
 
